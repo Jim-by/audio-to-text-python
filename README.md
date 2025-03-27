@@ -26,23 +26,24 @@ All dependencies must be installed before running the script. It is recommended 
     
 ```bash
     python -m venv venv
-    ```
+```
 
-2.  **Activate the virtual environment:**
+2.**Activate the virtual environment:**
     **Windows:**
 
-        ```bash
-        venv\Scripts\activate
-        ```
+```bash
+    venv\Scripts\activate
+```
 
-    **Linux/macOS:**
+**Linux/macOS:**
+```bash
+    source venv/bin/activate
+```
 
-        ```bash
-        source venv/bin/activate
-        ```
-3.  ** Install the required libraries from the ``requirements.txt`` file:** ``bash source venv/bin/activate ``` 3.
+3.** Install the required libraries from the ``requirements.txt`` file:** ``bash source venv/bin/activate ``` 3.
 
-    `````bash
-    pip install -r requirements.txt
-    ```
-    (The `requirements.txt` file must be in the root folder of the project. Instructions for creating the `requirements.txt` file are below).
+```bash
+pip install -r requirements.txt
+```
+
+(The `requirements.txt` file must be in the root folder of the project. Instructions for creating the `requirements.txt` file are below).
