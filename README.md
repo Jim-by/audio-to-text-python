@@ -41,7 +41,7 @@ All dependencies must be installed before running the script. It is recommended 
     source venv/bin/activate
 ```
 
-3.** Install the required libraries from the ``requirements.txt`` file:** 
+3.**Install the required libraries from the ``requirements.txt`` file:** 
 
 ```bash 
 source venv/bin/activate 
