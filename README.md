@@ -29,18 +29,23 @@ All dependencies must be installed before running the script. It is recommended 
 ```
 
 2.**Activate the virtual environment:**
-    **Windows:**
+
+*    Windows:
 
 ```bash
     venv\Scripts\activate
 ```
 
-**Linux/macOS:**
+*    Linux/macOS:
 ```bash
     source venv/bin/activate
 ```
 
-3.** Install the required libraries from the ``requirements.txt`` file:** ``bash source venv/bin/activate ``` 3.
+3.** Install the required libraries from the ``requirements.txt`` file:** 
+
+```bash 
+source venv/bin/activate 
+```
 
 ```bash
 pip install -r requirements.txt
